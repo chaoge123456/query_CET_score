@@ -78,4 +78,5 @@ if __name__ == "__main__":
     img = Image.open("2b86.png")
     img = img_denoise(img,128)
     img_list = img_split(img,20,20)
+    print("This is a correction!!!!")
 """
